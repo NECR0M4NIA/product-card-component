@@ -96,8 +96,22 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    transition: 200ms;
+    display: block;
+}
+
+.cart:hover {
+    background-color: #2c5244;
+    cursor: pointer;
+    transition: 200ms;
+    display: block;
 }
 
 .cart img {
     width: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
