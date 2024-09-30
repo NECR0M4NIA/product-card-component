@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+/* à garder dans tous les cas */
+img {
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+main {
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+    display: flex;
+    width: 600px;
+    overflow: hidden;
+}
+
+.product-picture {
+    width: 50%;
+}
+
+.product-type {
+    width: 50%;
+    font-family: Montserrat;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 32px;
+}
+
+.product-name {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: Fraunces;
+}
+
+.product-description {
+    font-family: Montserrat;
+    font-size: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.product-price-text {
+    font-size: 32px;
+    font-family: Fraunces;
+    color: #3D8168;
+    font-weight: bolder;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.product-original-price {
+    font-size: 16px;
+    font-family: Fraunces;
+    color: #3d3d3d;
+    font-weight: 600;
+    text-decoration: line-through;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.product-price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cart {
+    background-color: #3D8168;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: 236px;
+    height: 48px;
+    padding: 16px;
+    font-family: Montserrat;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cart img {
+    width: 14px;
+}
